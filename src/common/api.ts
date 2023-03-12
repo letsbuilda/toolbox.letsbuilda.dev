@@ -1,5 +1,5 @@
 import axios from "axios";
-axios.defaults.baseURL = "http://api.letsbuilda.dev";
+axios.defaults.baseURL = "https://api.letsbuilda.dev";
 
 export interface GenerateRandomNumberAPIResponse {
     numbers: number[],
