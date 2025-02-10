@@ -35,7 +35,7 @@ export default function RandomNumbersHome() {
                     <label htmlFor="range_low">Lower bound</label>
                     <input 
                         name="range_low" 
-                        className="ring-1 ring-gray-500 bg-transparent focus:ring-2 focus:ring-indigo-500 outline-none p-2 rounded-lg"
+                        className="ring-1 ring-gray-500 bg-transparent focus:ring-2 focus:ring-indigo-500 outline-hidden p-2 rounded-lg"
                         value={state.lower_bound}
                         onChange={(e) => {
                             const val = e.target.value;
@@ -49,7 +49,7 @@ export default function RandomNumbersHome() {
                     <label htmlFor="range_high">Upper bound</label>
                     <input 
                         name="range_high" 
-                        className="ring-1 ring-gray-500 bg-transparent focus:ring-2 focus:ring-indigo-500 outline-none p-2 rounded-lg"
+                        className="ring-1 ring-gray-500 bg-transparent focus:ring-2 focus:ring-indigo-500 outline-hidden p-2 rounded-lg"
                         value={state.upper_bound}
                         onChange={(e) => {
                             const val = e.target.value;
@@ -63,7 +63,7 @@ export default function RandomNumbersHome() {
                     <label htmlFor="quantity">Quantity</label>
                     <input 
                         name="quantity" 
-                        className="ring-1 ring-gray-500 bg-transparent focus:ring-2 focus:ring-indigo-500 outline-none p-2 rounded-lg" 
+                        className="ring-1 ring-gray-500 bg-transparent focus:ring-2 focus:ring-indigo-500 outline-hidden p-2 rounded-lg" 
                         value={state.quantity}
                         onChange={(e) => {
                             const val = e.target.value;
@@ -86,7 +86,7 @@ export default function RandomNumbersHome() {
             <div className="flex flex-col">
                 <label htmlFor="numbers-display">Numbers</label>
                 <textarea 
-                    className="mt-2 mb-8 ring-1 ring-gray-500 bg-transparent p-2 outline-none rounded-lg cursor-not-allowed"
+                    className="mt-2 mb-8 ring-1 ring-gray-500 bg-transparent p-2 outline-hidden rounded-lg cursor-not-allowed"
                     placeholder="Result"
                     name="numbers-display"
                     rows={15}
@@ -98,7 +98,7 @@ export default function RandomNumbersHome() {
 
                 <label htmlFor="total-display">Total</label>
                 <textarea
-                    className="ring-1 ring-gray-500 bg-transparent p-2 outline-none rounded-lg cursor-not-allowed"
+                    className="ring-1 ring-gray-500 bg-transparent p-2 outline-hidden rounded-lg cursor-not-allowed"
                     placeholder="Total"
                     name="total-display"
                     rows={1}
