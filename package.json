@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@next/font": "14.2.15",
-    "@sentry/nextjs": "^10.34.0",
+    "@sentry/nextjs": "^10.40.0",
     "@types/node": "25.0.8",
     "@types/react": "19.2.8",
     "@types/react-dom": "19.2.3",
